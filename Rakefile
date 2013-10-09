@@ -1,1 +1,1 @@
-require_relative 'config'
+require 'sinatra/activerecord/rake'
