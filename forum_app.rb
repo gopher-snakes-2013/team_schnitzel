@@ -4,7 +4,7 @@ require_relative 'models/post.rb'
 begin 
     require 'dotenv'
     Dotenv.load
-rescue
+rescue LoadError
 end
 
 set :database, ENV['DATABASE_URL']
